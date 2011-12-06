@@ -122,8 +122,4 @@ public class EspetaculosController {
 		validator.onErrorUse(status()).notFound();
 		return espetaculo;
 	}
-
-	private Estabelecimento criaEstabelecimento(Long id) {
-		return estabelecimentos.todos().get(0);
-	}
 }
